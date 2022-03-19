@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Online date calculator</title>
+  </head>
+  <body>
+    <h1 class="title">Online date calculator</h1>
+    <div class="container">
+      <span>Enter date: </span>
+      <input id="date" />
+    </div>
+
+    <div class="container">
+      <span>Enter separator:</span>
+      <input id="separator" />
+    </div>
+
+    <div class="container">
+      <span>Select input date format:</span>
+      <select id="input_format"></select>
+    </div>
+
+    <div class="container">
+      <span>Select output date format:</span>
+      <select id="output_format"></select>
+    </div>
+    <div class="container_result">
+      <button id="result_button">Result:</button>
+      <button id="from_now_button">From now:</button>
+      <span class="result_date_form" id="result_date_form"></span>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

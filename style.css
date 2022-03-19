@@ -1,0 +1,49 @@
+body {
+    margin: 0 auto;
+    background: rgb(227, 242, 243);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: rgb(3, 3, 68);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px auto;
+}
+
+span,
+input,
+select,
+button {
+    margin: 0 5px;
+    background-color: rgb(241, 250, 250);
+    width: 21%;
+    padding: 18px;
+    font-size: 25px;
+    border: 5px solid rgb(154, 156, 156);
+    outline: none;
+}
+
+button {
+    color: #fff;
+    background-color: rgb(34, 193, 221);
+    margin: 10px;
+    border: none;
+}
+
+.container_result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result_date_form {
+    border: 7px solid rgb(6, 97, 97);
+    text-align: center;
+}
